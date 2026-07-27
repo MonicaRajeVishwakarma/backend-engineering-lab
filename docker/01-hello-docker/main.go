@@ -19,5 +19,6 @@ func main(){
 
 	if err != nil {
 		painc(err)
+	}
 
 }
