@@ -1,5 +1,5 @@
 # History
-Earlier a backend applications was depended heavily on the machine it ran on.
+Earlier a backend application was depended heavily on the machine it ran on.
 
 # VM vs Container
 
