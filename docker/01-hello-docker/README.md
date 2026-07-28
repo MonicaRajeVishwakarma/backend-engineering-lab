@@ -38,3 +38,18 @@ Package the application and its runtime environment into a portable unit.
 2. Image : A packaged application.
 3. Container : A running instance.
 
+
+# Hello Docker Go Application
+
+## Build
+
+docker build -t hello .
+
+## Run
+
+docker run -p 8080:8080 hello
+
+## Test
+
+curl localhost:8080
+
