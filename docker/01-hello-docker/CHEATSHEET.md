@@ -40,9 +40,15 @@ docker build -t hello .
 docker images
 ```
 
-Displays all images stored locally.
+Displays all images stored locally. Tell the size of the images also.
 
 ---
+
+```bash
+docker image ls
+```
+
+List all the images
 
 ## Run a Container
 
@@ -71,6 +77,26 @@ localhost:8080 ---> :8080
 The first port is the host port.
 
 The second port is the container port.
+
+---
+## Run Container in Detached Mode
+
+```bash
+docker run -d -p 8080:8080 <image-name>
+```
+
+---
+
+## View Docker Image Layers
+
+```bash
+docker history <image-name>
+```
+
+### Example 
+```bash
+docker history hello
+```
 
 ---
 
